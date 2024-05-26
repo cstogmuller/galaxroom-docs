@@ -25,7 +25,4 @@ else
   mv "$1/README.md" "$1/original_README.md"
   rsync -av --exclude="$(basename "${BASH_SOURCE[0]}")" --exclude="$1/" --exclude=".git/" --exclude="LICENSE" ./ "$1/"
   chmod +x "$1/publish.sh"
-  cd "$1/"
-  npm run build
-  cd ..
 fi
