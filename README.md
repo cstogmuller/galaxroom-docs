@@ -12,3 +12,8 @@ Installs a new Docusaurus website and applies the customizations.
 4. `sudo mkdir /var/www/somedir && sudo ln -s /var/www/somedir ~/somedir/build`
 4. Add the server block from nginx.txt to your nginx configuration
 5. Run `~/somedir/publish.sh` every time you change something
+
+## Credits
+
+[Docusaurus](https://github.com/facebook/docusaurus) by facebook  
+[Docusaurus Search Local](https://github.com/easyops-cn/docusaurus-search-local) by easyops-cn

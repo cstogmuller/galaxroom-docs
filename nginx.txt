@@ -5,12 +5,5 @@ server {
         root /var/www/somedir;
         index /index.html;
         error_page 404 /404.html;
-        server_tokens off;
-        add_header X-Frame-Options "SAMEORIGIN";
-        location / {
-                try_files $uri $uri/ =404;
-        }
-        location = / {
-                return 302 /docs;
-        }
+        location = /robots.txt { return 200 "User-agent: *\nDisallow: /\n"; }
 }

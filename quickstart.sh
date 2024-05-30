@@ -18,6 +18,7 @@ if [ -d "./$1" ]; then
   exit 1
 else
   npx create-docusaurus@latest "$1" classic --javascript
+  npm install --save @easyops-cn/docusaurus-search-local --prefix "$1"
   mv "$1/docs" "$1/original_docs"
   mv "$1/blog" "$1/original_blog"
   mv "$1/src/pages/index.js" "$1/src/pages/original_index.js.bak"

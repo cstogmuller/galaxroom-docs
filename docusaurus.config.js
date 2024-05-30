@@ -19,7 +19,7 @@ const config = {
   baseUrl: '/',
 
   trailingSlash: true,
-  noIndex: true,
+  noIndex: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -44,8 +44,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Makes docs the new home:
-          routeBasePath: '',
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -87,7 +86,7 @@ const config = {
           alt: 'Galaxroom Logo',
           src: 'img/logo.png',
           srcDark: 'img/logo-dark.png',
-          href: '/docs',
+          href: '/',
         },
         items: [
           {
@@ -112,7 +111,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs',
+                to: '/',
               },
             ],
           },
@@ -165,6 +164,22 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        //https://github.com/easyops-cn/docusaurus-search-local
+        hashed: true,
+        language: ["de", "en"],
+        indexPages: true,
+        docsRouteBasePath: "/",
+        explicitSearchResultPath: true,
+        forceIgnoreNoIndex: false,
+      }),
+    ],
+  ],
 };
 
 export default config;
