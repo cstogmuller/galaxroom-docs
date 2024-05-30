@@ -15,5 +15,5 @@ Installs a new Docusaurus website and applies the customizations.
 
 ## Credits
 
-[Docusaurus](https://github.com/facebook/docusaurus) by facebook  
-[Docusaurus Search Local](https://github.com/easyops-cn/docusaurus-search-local) by easyops-cn
+* [Docusaurus](https://github.com/facebook/docusaurus) - facebook  
+* [Docusaurus Search Local](https://github.com/easyops-cn/docusaurus-search-local) - easyops-cn
