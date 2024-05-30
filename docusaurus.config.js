@@ -8,8 +8,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Galaxroom',
-  tagline: 'Free/Libre Privacy-Tools & Services',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -18,7 +16,7 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  trailingSlash: true,
+  trailingSlash: false,
   noIndex: false,
 
   // GitHub pages deployment config.
