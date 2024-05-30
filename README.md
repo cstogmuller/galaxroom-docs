@@ -1,5 +1,5 @@
 # galaxroom-docs
-Customised [Docusaurus](https://github.com/facebook/docusaurus) configuration
+Customised Docusaurus configuration
 
 ## Quickstart
 
