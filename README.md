@@ -6,7 +6,7 @@ Customised Docusaurus configuration
 Installs a new Docusaurus website and applies the customizations.
 
 (Replace `somedir` with a directory name of your choice)
-1. Install dependencies: https://docusaurus.io/docs/installation#requirements
+1. Install dependencies: https://docusaurus.io/docs/installation#requirements (⟶ Node.js 18 or later at the time of writing)
 2. `git clone https://github.com/cstogmuller/galaxroom-docs && cd galaxroom-docs`
 2. `chmod +x quickstart.sh && ./quickstart.sh docusaurus`
 3. `mv docusaurus/ ~/somedir/`
