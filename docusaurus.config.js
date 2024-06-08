@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   favicon: 'img/favicon.ico',
-
+  title: 'Galaxroom Docs',
   // Set the production url of your site here
   url: 'http://docs.galaxroom.org',
   // Set the /<baseUrl>/ pathname under which your site is served
